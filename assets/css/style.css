@@ -709,8 +709,8 @@ header .mobile-btn span:after {
 .header-type-2 {
   top: 0;
   background: #1f0e36;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1f0e36), to(#321f52));
-  background: linear-gradient(to bottom, #1f0e36 0%, #321f52 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#321f52));
+  background: linear-gradient(to bottom, #242424 0%, #321f52 100%);
 }
 
 .header-type-2 .nav-menu li {
@@ -1434,7 +1434,7 @@ footer .footer-social-wrapper {
   padding: 0 130px 0 10px;
   margin: 17px 0 41px;
   font-size: 18px;
-  border-left: 2px solid #20add0;
+  border-left: 2px solid #ff9d1c;
 }
 
 #sync1 .item .blue-brd-btn {
