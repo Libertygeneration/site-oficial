@@ -242,9 +242,9 @@ p {
   position: relative;
 }
 .blue-brd-btn {
-  color: #20add0;
+  color: #ffffff;
   padding: 14px 25px;
-  border: 2px solid #20add0;
+  border: 2px solid #ffc21c;
   font-size: 15px;
   text-align: center;
   font-weight: 700;
@@ -253,7 +253,7 @@ p {
   transition: 0.2s linear;
 }
 .blue-brd-btn:hover {
-  background: #20add0;
+  background: #ffc21c;
   color: #fff;
   text-decoration: none;
 }
@@ -462,10 +462,10 @@ header .nav-menu a {
   transition: 0.2s linear;
 }
 header .nav-menu a:hover {
-  color: #20add0;
+  color: #ffad14;
 }
 header .nav-menu span {
-  color: #20add0;
+  color: #ff9d1c;
   margin-left: 3px;
   font-weight: 700;
 }
@@ -489,7 +489,7 @@ header .nav-menu li.top-sub-menu:hover .sub-menu {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-  background: linear-gradient(to bottom, #281643 0%, #3b2a5a 100%);
+  background: black;
 }
 header .nav-menu .sub-menu {
   top: 100%;
@@ -526,7 +526,7 @@ header .logo-fixed {
 }
 header.fixed {
   background: #1f0e36;
-  background: linear-gradient(to bottom, #1f0e36 0%, #321f52 100%);
+  background: #101010;
 }
 header.fixed .nav-menu li {
   padding: 43px 21px;
