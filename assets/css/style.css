@@ -708,9 +708,7 @@ header .mobile-btn span:after {
      ==================================== */
 .header-type-2 {
   top: 0;
-  background: #1f0e36;
-  background: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#321f52));
-  background: linear-gradient(to bottom, #242424 0%, #321f52 100%);
+  background: #242424;
 }
 
 .header-type-2 .nav-menu li {
@@ -841,7 +839,7 @@ header .mobile-btn span:after {
 
 .philosophy-block .coin-speacial-block {
   width: 317px;
-  background: #110f46;
+  background: #131313;
   position: absolute;
   right: 68px;
   top: 203px;
@@ -862,7 +860,7 @@ header .mobile-btn span:after {
 
 .philosophy-block .coin-speacial-block p {
   font-size: 16px;
-  color: #abaae6;
+  color: #fff;
   line-height: 28px;
   margin-bottom: 26px;
 }
