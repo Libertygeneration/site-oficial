@@ -480,10 +480,10 @@ header .nav-menu li:not(:last-child) {
 }
 header .nav-menu li.top-sub-menu:hover {
   cursor: pointer;
-  background: linear-gradient(to bottom, #190a2e 0%, #281643 100%);
+  background: linear-gradient(to bottom, #1a1a1a 0%, #181818 100%);
 }
 header .nav-menu li.top-sub-menu:hover > a {
-  color: #20add0;
+  color: #ffffff;
 }
 header .nav-menu li.top-sub-menu:hover .sub-menu {
   opacity: 1;
@@ -513,7 +513,7 @@ header .nav-menu .sub-menu li a {
   padding: 0 19px;
 }
 header .nav-menu .sub-menu li a:hover {
-  color: #20add0;
+  color: #ffad14;
 }
 header .nav-menu .sub-menu li:not(:last-child) {
   margin-bottom: 17px;
@@ -525,7 +525,7 @@ header .logo-fixed {
   display: none;
 }
 header.fixed {
-  background: #1f0e36;
+  background: #111111;
   background: #101010;
 }
 header.fixed .nav-menu li {
