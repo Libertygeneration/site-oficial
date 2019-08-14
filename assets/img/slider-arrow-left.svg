@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19.999" height="14.736" viewBox="0 0 38 28">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #a3c3eb;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M118.355,788.136a1.221,1.221,0,0,0,0,1.713l12.677,12.79a1.192,1.192,0,0,0,1.7,0,1.221,1.221,0,0,0,0-1.713L122.1,790.2H154.8a1.212,1.212,0,0,0,0-2.423H122.1l10.627-10.725a1.221,1.221,0,0,0,0-1.713,1.192,1.192,0,0,0-1.7,0Z" transform="translate(-118 -775)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 14.7" style="enable-background:new 0 0 20 14.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FF9D1C;}
+</style>
+<path id="Forma_1" class="st0" d="M0.2,6.9c-0.2,0.3-0.2,0.7,0,0.9l6.7,6.7c0.2,0.2,0.6,0.3,0.9,0c0,0,0,0,0,0
+	c0.2-0.3,0.2-0.7,0-0.9L2.2,8h17.2C19.7,8,20,7.7,20,7.3c0-0.3-0.3-0.6-0.6-0.6H2.2l5.6-5.6C8,0.8,8,0.4,7.8,0.2
+	c-0.2-0.2-0.6-0.3-0.9,0c0,0,0,0,0,0L0.2,6.9z"/>
 </svg>
