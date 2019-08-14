@@ -435,7 +435,9 @@ form.custom-form .form-group {
    ==================================== */
 
    .embed-container {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    top: -1%;
     padding-bottom: 56.25%;
     overflow: hidden;
   }
@@ -444,6 +446,7 @@ form.custom-form .form-group {
   .embed-container object,
   .embed-container embed {
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
