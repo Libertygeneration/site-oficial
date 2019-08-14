@@ -1175,15 +1175,15 @@ footer .footer-social-wrapper {
   border-left: 2px solid #20add0;
 }
 #sync1 .item .blue-brd-btn {
-  background: #20add0;
-  border: 2px solid #20add0;
+
+  border: 2px solid #ffc21c;
   color: #fff;
   font-family: 'Muli', sans-serif;
 }
 #sync1 .item .blue-brd-btn:hover,
 #sync1 .item .blue-brd-btn:active {
-  background: #110f46;
-  border: 2px solid #110f46;
+  background: #ffc21c;
+  border: 2px solid #ffc21c;
 }
 #sync1 .owl-dots {
   display: none;
