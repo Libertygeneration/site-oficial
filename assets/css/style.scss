@@ -2204,7 +2204,7 @@ body,html {
     margin-bottom: 22px;
   }
   .questions-page .first-section .text p {
-    color: #abaae6;
+    color: #ffad14;
     font-size: 18px;
     line-height: 27px;
   }
@@ -2270,6 +2270,7 @@ body,html {
     margin-bottom: 70px;
   }
   .questions-page .text-head h5 {
+    color: #ff9d1c;
     margin-bottom: 15px;
   }
   /* 02. Accordion
@@ -2285,7 +2286,7 @@ body,html {
     position: relative;
   }
   #accordion .accordion-header button {
-    color: #131149;
+    color: #1a1a1a;
     font-size: 20px;
     font-weight: 700;
     width: 100%;
@@ -2314,7 +2315,7 @@ body,html {
   }
   #accordion .accordion-header button svg path,
   #accordion .accordion-header button svg polygon {
-    fill: #20add0;
+    fill: #676767;
   }
   #accordion .accordion-header button.collapsed svg {
     -ms-transform: rotate(0);
@@ -2322,16 +2323,17 @@ body,html {
   }
   #accordion .accordion-header button:hover svg path,
   #accordion .accordion-header button:hover svg polygon {
-    fill: #131149;
+    fill: #ffad14;
   }
   #accordion .accordion-body {
     padding: 2px 20px 47px 30px;
   }
   #accordion .accordion-body p {
-    color: #3a3864;
+    color: #525252;
     font-size: 18px;
     line-height: 31px;
   }
+  
   /* 03. Media Query Animation
      ==================================== */
   @media only screen and (min-width: 992px) {
