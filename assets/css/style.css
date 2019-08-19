@@ -326,7 +326,7 @@ p {
      ==================================== */
 .text-head h5 {
   font-size: 18px;
-  color: #20add0;
+  color: #ff9d1c;
   margin-bottom: 25px;
 }
 
@@ -1048,7 +1048,7 @@ header .mobile-btn span:after {
 }
 
 .price-plan-block .price-plan-text-1 {
-  color: #abaae6;
+  color: #ff9d1c;
   line-height: 1.5;
   padding-bottom: 25px;
   border-bottom: 2px solid #323260;
@@ -1207,7 +1207,7 @@ header .mobile-btn span:after {
 }
 
 .our-team .text a {
-  color: #20add0;
+  color: #ff9d1c;
   font-size: 15px;
 }
 
@@ -1471,7 +1471,7 @@ footer .footer-social-wrapper {
 }
 
 #sync2 .current .item {
-  color: #abaae6;
+  color: #ff9d1c;
 }
 
 .owl-carousel {
@@ -1747,7 +1747,7 @@ footer .footer-social-wrapper {
 }
 
 .team-slider .item:hover .info-team h5 {
-  color: #20add0;
+  color: #ff9d1c;
 }
 
 .team-slider .item:hover .info-team svg path {
@@ -2212,7 +2212,7 @@ footer .footer-social-wrapper {
 }
 
 .post .last-news-date {
-  color: #20add0;
+  color: #ff9d1c;
   font-size: 16px;
   margin-bottom: -11px;
 }
@@ -2225,12 +2225,12 @@ footer .footer-social-wrapper {
 }
 
 .post .last-news-title:hover {
-  color: #20add0;
+  color: #ff9d1c;
 }
 
 .post .read-more-btn {
   display: inline-block;
-  color: #20add0;
+  color: #0f0f0f;
   position: relative;
   font-size: 15px;
 }

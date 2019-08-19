@@ -392,7 +392,7 @@
   }
   header.fixed,
   .header-type-2.fixed {
-    background: linear-gradient(to bottom, #1f0e36 0%, #251541 100%);
+    background: #101010;
   }
   header.fixed .mobile-btn span,
   .header-type-2.fixed .mobile-btn span,
