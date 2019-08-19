@@ -370,7 +370,7 @@
   }
   header .nav-menu li.top-sub-menu:hover .sub-menu,
   .header-type-2 .nav-menu li.top-sub-menu:hover .sub-menu {
-    background: linear-gradient(to bottom, #190a2e 0%, #281643 100%);
+    background: #101010;
   }
   header .nav-menu li.top-sub-menu.active,
   .header-type-2 .nav-menu li.top-sub-menu.active {
@@ -384,7 +384,7 @@
     opacity: 1;
     display: none;
     visibility: visible;
-    background: linear-gradient(to bottom, #190a2e 0%, #281643 100%);
+    background: #101010;
   }
   header .nav-menu .sub-menu.active,
   .header-type-2 .nav-menu .sub-menu.active {
