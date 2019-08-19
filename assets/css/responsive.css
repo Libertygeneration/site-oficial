@@ -334,7 +334,7 @@
     padding-bottom: 10px;
     position: fixed;
     z-index: 9;
-    background: linear-gradient(to bottom, #251541 0%, #321f52 100%);
+    background-color: #101010;
   }
   header .blue-brd-btn,
   .header-type-2 .blue-brd-btn {
