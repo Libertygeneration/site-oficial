@@ -244,7 +244,7 @@ body,html {
   .blue-brd-btn {
     color: #ffffff;
     padding: 14px 25px;
-    border: 2px solid #ffc21c;
+    border: 2px solid rgb(0, 0, 0);
     font-size: 15px;
     text-align: center;
     font-weight: 700;
@@ -253,25 +253,25 @@ body,html {
     transition: 0.2s linear;
   }
   .blue-brd-btn:hover {
-    background: #ffc21c;
-    color: #fff;
+    background: rgb(0, 0, 0);
+    color: #ffad14;
     text-decoration: none;
   }
   .see-brd-btn {
     color: #fff;
     padding: 14px 34px;
     display: inline-block;
-    border: 2px solid #ff9d1c;
+    border: 2px solid #d8bd13;
     font-size: 15px;
     text-align: center;
-    background: #ff9d1c;
+    background: #d8bd13;
     cursor: pointer;
     font-family: "Myriad-Pro-Regular", serif;
     transition: 0.2s linear;
   }
   .see-brd-btn:hover {
-    background: #0f0f0f;
-    border: 2px solid #0f0f0f;
+    background: #3b3a34;
+    border: 2px solid #3b3a24;
     color: #fff;
     text-decoration: none;
   }
@@ -548,7 +548,7 @@ body,html {
     display: none;
   }
   header.fixed {
-    background: #001836;
+    background: #3b3a34;
   }
   header.fixed .nav-menu li {
     padding: 43px 21px;
@@ -699,7 +699,7 @@ body,html {
   }
   .philosophy-block .philosophy-div2 h4 {
     font-size: 18px;
-    color: #ff9d1c;
+    color: #3b3a34;
     font-weight: 700;
     line-height: 11px;
     margin-bottom: 20px;
@@ -716,7 +716,7 @@ body,html {
   }
   .philosophy-block .coin-speacial-block {
     width: 317px;
-    background: #001836;
+    background: #3b3a34;
     position: absolute;
     right: 68px;
     top: 203px;
@@ -833,7 +833,7 @@ body,html {
     font-weight: 400;
     margin-top: 5px;
   }
-  /* 05. Price Plan Block
+  /* 05. Price Plan Blockmmw3
      ==================================== */
   .price-plan-block {
     margin-bottom: 60px;
@@ -1191,7 +1191,7 @@ body,html {
     line-height: 56px;
   }
   #sync1 .item p {
-    color: #b8b8b8;
+    color: rgb(255, 255, 255);
     line-height: 27px;
     padding: 0 130px 0 10px;
     margin: 17px 0 41px;
@@ -1220,7 +1220,7 @@ body,html {
   #sync2 .item {
     padding: 10px 0;
     margin: 5px;
-    color: #676767;
+    color: #ffffff;
     border-radius: 3px;
     text-align: center;
     cursor: pointer;
