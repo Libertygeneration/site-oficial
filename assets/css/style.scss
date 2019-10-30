@@ -1176,18 +1176,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
   .courusel-container .main-slider-logo-block img {
     max-width: 140px;
   }
-  .courusel-container:before {
-    content: "";
-    width: 2px;
-    height: 87px;
-    bottom: -25px;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-    position: absolute;
-    display: inline-block;
-    background-color: #20add0;
-  }
   #sync1 .item h1 {
     font-size: 45px;
     color: #fff;
@@ -2644,6 +2632,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
 
 .text-danger {
   color: #8af1f1 !important;
+}
+
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @media screen and(max-width: 1024px) {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background-color: rgba(68, 45, 218, 0.1);
+  }
+}
+
+
+
+#sync1 {
+  @media screen and(max-width: 1024px) {
+    margin-top: 5rem;
+  }
 }
 
   /*=====  End of Style IE  ======*/
