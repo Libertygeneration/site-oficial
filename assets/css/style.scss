@@ -1,14 +1,4 @@
 /*
-Theme Name:     Cryptocurrency
-Theme URI:      https://cryptocurrency-html.fruitfulcode.com/
-Author:         fruitfulcode
-Author URI:     https://fruitfulcode.com/
-Description:    
-Version:        1.0
-License:        GNU General Public License v2 or later
-License URI:    http://www.gnu.org/licenses/gpl-2.0.html
-*/
-/**
 	Navigation Files
 
 	01. Info
@@ -198,17 +188,22 @@ body,html {
    */
   /* 01. Global Style
      ==================================== */
+
+
   body {
     font-family: 'Muli', sans-serif;
     font-weight: 400;
+    background-color: #090f20;
   }
   h1 {
     font-size: 51px;
     font-weight: 900;
+    color: #fff;
   }
   h2 {
     font-size: 45px;
     font-weight: 900;
+    color: #fff;
   }
   h3 {
     font-size: 36px;
@@ -217,6 +212,7 @@ body,html {
   h4 {
     font-size: 22px;
     font-weight: 600;
+    color: #fff;
   }
   h5 {
     font-size: 18px;
@@ -225,6 +221,7 @@ body,html {
   h6 {
     font-size: 16px;
     font-weight: 400;
+    color: #fff;
   }
   a {
     transition: 0.2s linear;
@@ -233,7 +230,7 @@ body,html {
     text-decoration: none;
   }
   p {
-    color: #3a3864;
+    color: rgb(194, 194, 194);
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -276,7 +273,7 @@ body,html {
     text-decoration: none;
   }
   .h2-main {
-    color: #151f41;
+    color: #fff;
     font-weight: 600;
     font-size: 36px;
     line-height: 51px;
@@ -485,10 +482,10 @@ body,html {
     transition: 0.2s linear;
   }
   header .nav-menu a:hover {
-    color: #ffad14;
+    color: #8af1f1;
   }
   header .nav-menu span {
-    color: #ff9d1c;
+    color: #461cff;
     margin-left: 3px;
     font-weight: 700;
   }
@@ -503,7 +500,14 @@ body,html {
   }
   header .nav-menu li.top-sub-menu:hover {
     cursor: pointer;
-    background: linear-gradient(to bottom, #1a1a1a 0%, #181818 100%);
+    background: rgba(21,35,82,1);
+background: -moz-linear-gradient(left, rgba(21,35,82,1) 0%, rgba(21,31,65,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(21,35,82,1)), color-stop(100%, rgba(21,31,65,1)));
+background: -webkit-linear-gradient(left, rgba(21,35,82,1) 0%, rgba(21,31,65,1) 100%);
+background: -o-linear-gradient(left, rgba(21,35,82,1) 0%, rgba(21,31,65,1) 100%);
+background: -ms-linear-gradient(left, rgba(21,35,82,1) 0%, rgba(21,31,65,1) 100%);
+background: linear-gradient(to right, rgba(21,35,82,1) 0%, rgba(21,31,65,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', endColorstr='#151f41', GradientType=1 );
   }
   header .nav-menu li.top-sub-menu:hover > a {
     color: #ffffff;
@@ -645,7 +649,7 @@ body,html {
     padding-right: 50px;
   }
   .reasons-block .reasons-desc-div h4 {
-    color: #131313;
+    color: #fff;
     margin-bottom: 6px;
     font-size: 18px;
     font-weight: 700;
