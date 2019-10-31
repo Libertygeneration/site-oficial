@@ -1209,9 +1209,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
   }
   #sync2 {
     position: absolute;
-    top: 346px;
+    top: 250px;
     left: 4px;
-  }
+    @media screen and(max-width: 1024px){
+      top: 270px;
+    }
+   }
   #sync2 .item {
     padding: 10px 0;
     margin: 5px;
