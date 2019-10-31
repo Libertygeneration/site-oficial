@@ -451,6 +451,7 @@ body,html {
       left: 0;
       width: 100%;
       height: 100%;
+      
     }
   
   header {
@@ -1153,10 +1154,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
     padding: 232px 0 135px;
     position: relative;
     margin-bottom: 86px;
-    background: url(../img/background.png) no-repeat center;
+    background: url("../img/background.png") no-repeat center;
     background-size: cover;
-    @media screen and(min-width: 1300px) {
-        background: url('../img/background2.png');
+    @media screen and(width: 1441px) {
+      background: url("../img/background2.png") no-repeat center;
+      background-size: cover;
     }
   }
   .courusel-container .inside {
@@ -2636,14 +2638,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
 
 
 header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   @media screen and(max-width: 1024px) {
     padding-top: 1rem;
     padding-bottom: 3rem;
     background-color: rgba(68, 45, 218, 0.1);
   }
+
+  
 }
 
 
@@ -2652,6 +2656,7 @@ header {
   @media screen and(max-width: 1024px) {
     margin-top: 5rem;
   }
+  
 }
 
   /*=====  End of Style IE  ======*/
