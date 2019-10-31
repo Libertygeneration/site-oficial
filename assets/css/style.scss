@@ -2636,21 +2636,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
   color: #8af1f1 !important;
 }
 
-
 header {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: rgba(10, 2, 51, 0.9);
 
   @media screen and(max-width: 1024px) {
     padding-top: 1rem;
     padding-bottom: 3rem;
-    background-color: rgba(68, 45, 218, 0.1);
+    background-color: rgb(7, 3, 31)
   }
 
   
 }
 
+li {
+  list-style: none;
 
+  .dropdown-toggle {
+    color: #fff;
+  }
+}
 
 #sync1 {
   @media screen and(max-width: 1024px) {
@@ -2659,13 +2665,29 @@ header {
   
 }
 
-  /*=====  End of Style IE  ======*/
-  /*===================================
-  =            Color Theme            =
-  ===================================*/
-  /*=====  End of Color Theme  ======*/
-  /*===================================
-  =            Font Family            =
-  ===================================*/
-  /*=====  End of Font Family  ======*/
+.nav-item {
+  padding: 0rem 1rem;
+  
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    ;
+  }
+
+  .btn {
+    background-color: #151f41;
+    @media screen and(max-width: 1024px){
+      background: none;
+    }
+  }
+
+}
+
+.dropdown-menu {
+  @media screen and(max-width: 1024px) {
+    text-align: center;
+  }
+}
+
+ 
   
