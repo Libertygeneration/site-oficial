@@ -1157,7 +1157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
     margin-bottom: 86px;
     background: url("../img/background.png") no-repeat center;
     background-size: cover;
-    @media screen and(width: 1725px) {
+    @media screen and(max-width: 1725px) {
       background: url("../img/background2.png") no-repeat center;
       background-size: cover;
     }
@@ -1184,6 +1184,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
     color: #fff;
     font-weight: 900;
     line-height: 56px;
+    @media screen and(max-width: 1024px) {
+      font-size: 32px;
+    }
   }
   #sync1 .item p {
     color: rgb(255, 255, 255);
