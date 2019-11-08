@@ -1157,7 +1157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
     margin-bottom: 86px;
     background: url("../img/background.png") no-repeat center;
     background-size: cover;
-    @media screen and(max-width: 1725px) {
+    @media screen and(min-width: 1420px) {
       background: url("../img/background2.png") no-repeat center;
       background-size: cover;
     }
