@@ -2203,6 +2203,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
   .questions-page .first-section .text h1 {
     line-height: 53px;
     margin-bottom: 22px;
+    @media screen and(max-width: 1024px){
+      margin-top: 4rem;
+    }
   }
   .questions-page .first-section .text p {
     color: #ffad14;
