@@ -789,6 +789,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152352', end
   /* 04. Live Currency
      ==================================== */
   .live-currency {
+   
     margin-bottom: 50px;
   }
   .live-currency .live-currency-div1 {
@@ -2694,6 +2695,10 @@ li {
   @media screen and(max-width: 1024px) {
     text-align: center;
   }
+}
+
+.op-0 {
+  opacity: 0;
 }
 
  
